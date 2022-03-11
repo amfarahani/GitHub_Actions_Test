@@ -16,7 +16,9 @@ jobs:
       - name: Install lint
         run: |
           make lint
-      - name: Test 
+      - name: Test
+        run:  |
+          make test
         run: |
           make test
       - name: Format 
